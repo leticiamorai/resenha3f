@@ -1,1 +1,47 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
 
+.container{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 20px;
+    background-color: rgb(122, 255, 211);
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner img{
+    max-width:100% ;
+    border-radius: 30px;
+    box-shadow: 0 0 15px blue;
+
+}
+
+.atores{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.ator{
+    text-align: center;
+}
+
+.ator img{
+    width: 130px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgb(25, 25, 55);
+}
