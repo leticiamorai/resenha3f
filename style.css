@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+SK:wght@100..400&display=swap');
+
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: playwrite SK, Geneva, Tahoma, sans-serif;
     margin: 0%;
     padding: 0%;
 }
@@ -8,13 +10,18 @@ body{
     max-width: 800px;
     margin: 0% auto;
     padding: 20px;
-    background-color: rgb(122, 255, 211);
+    background: linear-gradient(rgb(189, 189, 255),rgb(67, 67, 249))
 }
 
 .titulo{
     text-align: center;
     margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 10px 10px rgb(75, 75, 247);
+    border-radius: 30px;    
+
 }
+
 
 .banner{
     text-align: center;
@@ -39,9 +46,9 @@ body{
 }
 
 .ator img{
-    width: 130px;
-    height: 200px;
+    width: 160px;
+    height: 230px;
     object-fit: cover;
     border-radius: 10%;
-    box-shadow: 0 0 10px rgb(25, 25, 55);
+    box-shadow: 0 0 10px rgb(218, 218, 255);
 }
