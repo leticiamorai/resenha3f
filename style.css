@@ -52,3 +52,21 @@ body{
     border-radius: 10%;
     box-shadow: 0 0 10px rgb(218, 218, 255);
 }
+
+.site{
+    align-items: center;
+    font-size: 1.2em;
+    
+
+}
+
+.site img{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.avaliacoes{
+    display: flex;
+    justify-content: space-around;
+}
